@@ -31,7 +31,8 @@ export default function Home() {
               <span>Informações</span>
             </li>
           </button>
-
+          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8557693501068000"
+            crossorigin="anonymous"></script>
 
         </div>
       </div>

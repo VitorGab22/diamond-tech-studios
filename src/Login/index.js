@@ -33,7 +33,7 @@ export default function Login({ history }) {
               id="senha"
               placeholder="Sua senha" />
 
-            <button className="btn" type="button">Entrar</button>
+            <button onClick={handleSubmit} className="btn" type="button">Entrar</button>
           </form>
         </div>
       </div>
