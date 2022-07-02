@@ -16,6 +16,7 @@
   width: 300px;
   height: 100px;
   background-color: blueviolet ;
+  background: linear-gradient(blueviolet,rgb(22, 231, 161));
   border-radius: 100px;
   border-width: 0px;
   /* padding-left: 100px; */
@@ -29,6 +30,28 @@ button.butt {
   /* border-width: 0px; */
   border-width: 1px;
   /* padding-left: 100px; */
+  
+}
+button.jogar {
+  width: 200px;
+  height: 60px;
+  /* background-color: rgb(231, 22, 22) ; */
+  /* background: linear-gradient(rgb(231, 193, 22),rgb(231, 22, 22)); */
+  background: linear-gradient(blueviolet,rgb(22, 231, 161));
+  border-radius: 100px;
+  color: white;
+  /* border-width: 0px; */
+  border-width: 1px;
+  /* padding-left: 100px; */
+  
+}
+button.opengame {
+ 
+  /* background-color: rgb(231, 22, 22) ; */
+  /* background: linear-gradient(rgb(231, 193, 22),rgb(231, 22, 22)); */
+  background: radial-gradient(blueviolet,rgb(22, 231, 161));
+  /* color: white; */
+
   
 }
 img.img2{
@@ -59,7 +82,41 @@ ul.carrossel{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
+img.img1{
+ width: 400px;
+ height: 300px;
+}
+img.img2{
+ width: 400px;
+ height: 300px;
+}
+img.img3{
+ width: 400px;
+ height: 300px;
+}
+img.img4{
+ width: 200px;
+ height: 400px;
+}
 
 .jogo {
   align-items: center;
+}
+
+button.open h2{
+  color: aliceblue;
+  font-size: 25px;
+  margin-top: 8px;
+}
+h2.h2{
+  color: aliceblue;
+  font-size: 40px;
+  margin-top: 8px;
+  padding-left: 10px;
+}
+label.open h3{
+  color: aliceblue;
+  font-size: 25px;
+  margin-top: 8px;
+  padding-left: 10px;
 }

@@ -17,11 +17,12 @@ export default function Login({ history }) {
       </div>
 
       <div className="container">
-        <p>Faça seu login</p>
+        {/* <p>Faça seu login</p> */}
+        <p>Conheça a Diamod Tech Stúdios agora!</p>
         <div className="content">
 
           <form onSubmit={handleSubmit}>
-            <label htmlFor="email">EMAIL</label>
+            {/* <label htmlFor="email">EMAIL</label>
             <input
               type="email"
               id="email"
@@ -31,7 +32,7 @@ export default function Login({ history }) {
             <input
               type="Senha"
               id="senha"
-              placeholder="Sua senha" />
+              placeholder="Sua senha" /> */}
 
             <button onClick={handleSubmit} className="btn" type="button">Entrar</button>
           </form>
