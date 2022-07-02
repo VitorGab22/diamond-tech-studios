@@ -1,13 +1,56 @@
+/* body {
+  background-image: url('/src/assets/capatop2.png');
+}; */
 .jogo {
-  background-color: gainsboro;
-  
+  background-color: rgb(250, 250, 250);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  flex-direction: row;
 }
 .jogo h2  {
   margin-top: 30px;
+  height: 150px;
+  
+}
+.jogo button   {
+  width: 300px;
+  height: 100px;
+  background-color: blueviolet ;
+  border-radius: 100px;
+  border-width: 0px;
+  /* padding-left: 100px; */
+  
+}
+button.butt {
+  width: 200px;
+  height: 60px;
+  background-color: rgb(166, 235, 220) ;
+  border-radius: 100px;
+  /* border-width: 0px; */
+  border-width: 1px;
+  /* padding-left: 100px; */
+  
+}
+img.img2{
+  height: 1000px;
+}
+.jogo button span  {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  
+}
+button span.buttext  {
+  font-size: 30px;
+  color: dimgray;
   
 }
 .jogo h5{
   margin-top: 30px;
+  
+}
+.jogo ul{
+ background-color: rgb(90,345,80);
+height: 100px;
   
 }
 

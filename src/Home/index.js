@@ -4,7 +4,12 @@ import './styles.css';
 import game from '../assets/game.png';
 import images from '../assets/images.jpg';
 
-export default function Home() {
+export default function Home({ history }) {
+  function handleSubmit(event) {
+    event.preventDefault();
+
+    history.push('/game')
+  }
   return (
     <>
 
@@ -12,7 +17,9 @@ export default function Home() {
 
         <p>Confira os projetos da Diamond Tech Stúdios!</p>
         <div className="content">
-          <button>
+          <button
+            onClick={handleSubmit}
+          >
             <li>
               <header >
                 <img src={game} alt="game" />
