@@ -1,0 +1,22 @@
+.jogo {
+  background-color: gainsboro;
+  
+}
+.jogo h2  {
+  margin-top: 30px;
+  
+}
+.jogo h5{
+  margin-top: 30px;
+  
+}
+
+ul.carrossel{
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.jogo {
+  align-items: center;
+}
