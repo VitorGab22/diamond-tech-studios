@@ -24,7 +24,7 @@ export default function Home({ history }) {
               <header >
                 <img src={game} alt="game" />
               </header>
-              <strong>Projeto de jogo</strong>
+              <strong>Jogos</strong>
               <span>Informações</span>
             </li>
           </button>
@@ -38,6 +38,7 @@ export default function Home({ history }) {
               <span>Informações</span>
             </li>
           </button>
+
           <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8557693501068000"
             crossorigin="anonymous"></script>
 
