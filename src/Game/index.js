@@ -72,6 +72,7 @@ export default function Game({ history }) {
             <img src={img4} alt="game" className="img4" style={{ width: '100%', marginTop: 20 }} />
 
             <label className="open">
+
               <button onClick={handlePlay} className="jogar"><h2>Jogar agora</h2></button>
               <h2 className="h2">Descrição:</h2>
               <h3>Você pode criar seus itens coletando materiais de artesanato.</h3>
