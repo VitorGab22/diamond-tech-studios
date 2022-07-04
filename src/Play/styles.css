@@ -120,7 +120,18 @@ label.open h3{
   margin-top: 8px;
   padding-left: 10px;
 }
-iframe.jogar{
-  height: 800px;
-  width: 100%;
+div.central{
+  align-items: center;
+  display: grid;
+ 
+}
+button.sair{
+  /* background-color: rgb(231, 22, 22) ; */
+  background: linear-gradient(rgb(231, 193, 22),rgb(231, 22, 22));
+  width: 200px;
+  height: 60px;
+  border-radius: 100px;
+  border-width: 1px;
+  /* background: radial-gradient(blueviolet,rgb(22, 231, 161)); */
+  /* color: white; */
 }
