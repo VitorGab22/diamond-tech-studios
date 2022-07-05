@@ -1,11 +1,11 @@
 // import React, { useState } from 'react';
 
 
-import FullpageScreen from '../FullScreen/FullPageScreen';
+import FullpageScreen2 from '../FullScreen/FullPageScreen2';
 export default function Play() {
   return (
 
-    <FullpageScreen />
+    <FullpageScreen2 />
 
   )
 }

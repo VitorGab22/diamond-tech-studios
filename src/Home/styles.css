@@ -48,7 +48,8 @@ ul.spot-list li span {
   max-width: 650px;
   width: 100%;
   display: grid;
-  flex-direction: row;
+  flex-direction: column;
+  /* flex-direction: row; */
   align-items: center;
   /* background-color: red; */
 }

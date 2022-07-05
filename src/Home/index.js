@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles.css';
 
-import game from '../assets/game.png';
+import game from '../assets/background2.png';
 import images from '../assets/images.jpg';
 
 export default function Home({ history }) {
