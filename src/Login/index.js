@@ -12,6 +12,7 @@ export default function Login({ history }) {
 
   return (
     <>
+
       <div className="lg" >
         <img src={logo} alt="logo" />
       </div>
