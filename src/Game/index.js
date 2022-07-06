@@ -66,6 +66,7 @@ export default function Game({ history }) {
           className="opengame"
           onClick={() => {
             setOpen(true)
+            setOpen2(false)
           }}
         >
           <img src={game} style={{ width: 300, height: 200 }} alt="game" className="img2" />
@@ -79,6 +80,7 @@ export default function Game({ history }) {
           className="opengame"
           onClick={() => {
             setOpen2(true)
+            setOpen(false)
           }}
         >
           <img src={imgnave} style={{ width: 300, height: 200 }} alt="imgnave" className="img2" />
