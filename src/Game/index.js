@@ -47,13 +47,10 @@ export default function Game({ history }) {
           <button className="butt" >
             <span className="buttext">Jogos</span>
           </button>
-          <button className="butt">
+          {/* <button className="butt">
             <span className="buttext">Dicas</span>
-          </button>
-          {/* <ul>
+          </button> */}
 
-            <h5>Informações sobre o jogo:<h2 style={{ color: 'red' }}>Rpg combate 2d action</h2></h5>
-          </ul> */}
 
 
         </div>
