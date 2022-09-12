@@ -1,7 +1,7 @@
 
 ul.spot-list {
   width: 100%;
-  background-color: brown;
+  background-color: rgb(161, 33, 33);
   /* height: 200; */
   list-style: none;
   display: grid;
