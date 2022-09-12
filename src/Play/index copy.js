@@ -9,7 +9,7 @@ import img4 from '../assets/img4.png';
 import game from '../assets//capatop2.png';
 import images from '../assets/images.jpg';
 import FullpageScreen from '../FullPageScreen';
-export default function Play({ history }) {
+export default function Play2({ history }) {
   function handleSubmit(event) {
     event.preventDefault();
 

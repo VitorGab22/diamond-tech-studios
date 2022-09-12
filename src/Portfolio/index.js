@@ -4,7 +4,7 @@ import './styles.css';
 import game from '../assets/background2.png';
 import images from '../assets/images.jpg';
 
-export default function Home2({ history }) {
+export default function Portfolio({ history }) {
   function handleSubmit(event) {
     event.preventDefault();
 

@@ -10,13 +10,16 @@ html,body, #root {
 }
 
 body {
-  background: #000 url('/src/assets/back.jpg');
-background-size: cover;
+  /* background: #000 url('/src/assets/back.jpg'); */
+/* background-size: cover; */
 -webkit-font-smothing: antialiased !important;
+background: linear-gradient( rgb(198, 240, 250),  
+ rgb(117, 185, 127));;
 }
 
 body, input, button {
-  font-family: 'Times New Roman', Times, serif;
+  /* font-family: 'Times New Roman', Times, serif; */
+  font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 16px;
 } 
 
