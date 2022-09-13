@@ -15,7 +15,7 @@ export default function Home2({ history }) {
 
       <div className="container">
 
-        <p>Confira os projetos da Diamond Tech Stúdios!</p>
+        <p style={{ color: 'white' }}>Confira os projetos da Diamond Tech Stúdios!</p>
         <div className="content">
           <button
             onClick={handleSubmit}

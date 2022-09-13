@@ -19,7 +19,7 @@ export default function Login({ history }) {
 
       <div className="container">
         {/* <p>Faça seu login</p> */}
-        <p>Conheça a Diamod Tech Stúdios agora!</p>
+        <p style={{ color: 'white' }}>Conheça a Diamod Tech Stúdios agora!</p>
         <div className="content">
 
           <form onSubmit={handleSubmit}>
