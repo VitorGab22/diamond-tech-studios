@@ -15,7 +15,7 @@ function App() {
     //   <h1>Aplicativos, sites e jogos.</h1>
 
     // </div>
-    <Home2 />
+    <Routes />
     // <div className="content">
     // </div>
 
